@@ -26,12 +26,21 @@ body {
 	max-width: 90%;
 }
 
-.black {
-	background-color: #043000;
+.background {
+	background-color: #102610e3;
 	padding: 10px;
 	text-align: center;
 	border-radius: 20px;
 	box-shadow: 0 0 15px 2px;
+}
+
+.background h1 {
+	color: #17d523;
+}
+
+.background p {
+	font-size: 18px;
+	color: white;
 }
 
 .answer {
@@ -50,11 +59,12 @@ body {
 	text-decoration: none;
 }
 
-.black h1 {
-	color: #00e90f;
-}
-
-.black p {
-	font-size: 18px;
-	color: white;
+.btn2 {
+	border-radius: 10px;
+	padding: 5px 10px;
+	font-size: 30px;
+	background-color: #f7e96a;
+	outline: none;
+	color: #043000;
+	text-decoration: none;
 }
